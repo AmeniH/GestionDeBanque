@@ -24,7 +24,7 @@ public class Accueil extends javax.swing.JFrame {
     public Accueil(){
         
         initComponents();
-        t = new Timer (40 , new ActionListener() {
+        t = new Timer (30 , new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
